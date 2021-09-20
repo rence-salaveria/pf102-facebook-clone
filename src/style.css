@@ -1,0 +1,88 @@
+/* imports and font face declarations */
+@font-face {
+    font-family: Klavika;
+    src: url("../assets/fonts/klavika-medium.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* variables */
+:root {
+    --nav-background: #3B5998
+}
+
+#facebook-name {
+    font-family: Klavika;
+    color: #fff;
+    font-size: 30pt;
+}
+
+#facebook-name > a {
+    text-decoration: none;
+    color: #fff
+}
+
+#navbar {
+    background-color: var(--nav-background);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#login-btn {
+    border-radius: none;
+    padding: 0.5px 10px;
+    margin-top: 4.5px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#wrapper {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+#map {
+    margin-top: 30px;
+    width: 50%;
+}
+
+#tagline {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.camouflage {
+    color: var(--nav-background);
+}
+
+.form-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.form-text > #forgot-text {
+    font-size: 12px;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(234,236,244,1) 65%, rgba(241,242,247,1) 100%);
+}
