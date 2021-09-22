@@ -14,3 +14,8 @@ Create a simple login and registration form on one page just like the old Facebo
 
 **Due Date:** Sept 25, 2021
 
+## Services and Software used
+
+- Google fonts
+- [Coolors.co](https://coolors.co)
+- JetBrains Webstorm
